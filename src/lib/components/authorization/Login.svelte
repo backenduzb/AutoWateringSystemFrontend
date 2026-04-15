@@ -2,9 +2,9 @@
     import { goto } from "$app/navigation";
     import { ROOT_URL } from "$lib/index";
     import { checkAuth } from "$lib/auth";
-
-    let username = "";
-    let password = "";
+    
+    let username = $state("");
+    let password = $state("");
     let showPassword = $state(true);
     let redirectTo = `/dashboard`;
     let ValidCredentials = $state(true);
