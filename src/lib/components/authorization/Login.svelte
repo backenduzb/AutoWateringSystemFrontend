@@ -62,7 +62,7 @@
                 type="text"
                 bind:value={username}
                 placeholder=""
-                class={`w-full h-11 px-3 rounded-lg border transition bg-transparent border-green-400  text-slate-900 
+                class={`w-full h-11 px-3 rounded-lg border transition bg-transparent border-green-400  text-white 
                     focus:outline-none focus:ring-3
                     ${
                         !ValidCredentials
@@ -92,12 +92,12 @@
                     type={showPassword ? "text" : "password"}
                     bind:value={password}
                     placeholder=""
-                    class={`w-full h-11 px-3 rounded-lg border transition bg-transparent border-green-400 text-slate-900 
+                    class={`w-full h-11 px-3 rounded-lg border transition bg-transparent border-green-400 text-white 
                         focus:outline-none focus:ring-3 
                         ${
                             !ValidCredentials
                                 ? "border-red-500 focus:ring-red-500/50 focus:border-red-500 dark:border-red-400"
-                                : "border-slate-300 dark:border-slate-600 focus:ring-green-500/50 focus:border-green-500"
+                                : "border-slate-300 focus:ring-green-500/50 focus:border-green-500"
                         }`}
                 />
                 <button

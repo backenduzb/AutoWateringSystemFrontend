@@ -9,13 +9,13 @@
   class="min-h-screen flex bg-black bg-cover bg-center"
   style={`background-image: url('${Bakcground}');`}
 >
-  <div class="hidden sm:flex sm:basis-1/2 sm:flex-none items-center justify-center backdrop-blur-md bg-black/10">
+  <div class="hidden text-white sm:flex sm:basis-1/2 sm:flex-none items-center justify-center backdrop-blur-md bg-black/10">
     <div>
       <Label class="text-4xl font-bold">
         Avtomatik sug'orish tizimi
       </Label>
 
-      <div class="flex items-center mt-10 gap-4">
+      <div class="flex text-white items-center mt-10 gap-4">
         <img src={Logo} alt="logo" width="45" height="45" />
         <Label>
           Qishloq ho'jaligi fermerlik, dalalari va issiqhonalar uchun
