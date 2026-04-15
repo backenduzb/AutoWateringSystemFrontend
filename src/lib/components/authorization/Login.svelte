@@ -5,9 +5,9 @@
 
     let username = "";
     let password = "";
-    let showPassword = false;
+    let showPassword = $state(true);
     let redirectTo = `/dashboard`;
-    let ValidCredentials = true;
+    let ValidCredentials = $state(true);
 
     async function loginUser() {
         const res = await fetch(`${ROOT_URL}/accounts/token/`, {

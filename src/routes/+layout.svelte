@@ -9,7 +9,7 @@
     import Sidebar from "$lib/components/ui/Menu.svelte";
     import Header from "$lib/components/ui/Header.svelte";
     
-    import "./app.css";
+    import "$lib/app.css";
 
     let authChecked = false;
 
